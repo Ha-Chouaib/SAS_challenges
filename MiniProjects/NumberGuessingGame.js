@@ -8,7 +8,7 @@ const rl = readline.createInterface({
     output
 });
 
-async function readValue(msg) {
+async function ReadNumber(msg) {
     const input = await rl.question(msg);
     return Number(input);
 }
@@ -35,7 +35,7 @@ function performGame(num) {
 }
 
 async function startGame() {
-    userGuess = await readValue("Try to guess the hidden number: ");
+    userGuess = await ReadNumber("Try to guess the hidden number: ");
     performGame(userGuess);
 
     rl.close();
