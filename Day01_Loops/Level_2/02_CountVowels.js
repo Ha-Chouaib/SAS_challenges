@@ -3,6 +3,7 @@
     Use a for loop to iterate over each character of the string and count how many vowels (a, e, i, o, u) it contains.
 */ 
 
+ let vawel = "aeiou"
 function isVawel(char)
 {
     return (char === "a" || char === "e" || char === "i" || char === "o" || char === "u" );
