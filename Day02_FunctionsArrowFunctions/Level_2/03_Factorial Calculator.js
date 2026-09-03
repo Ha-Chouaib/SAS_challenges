@@ -1,6 +1,6 @@
 // Write a function factorial(n) that uses a loop inside it to calculate and return the factorial of n.
 
-const factorial = function (num) 
+const factorial = function calculateFactorial(num) 
 {
     let fac = 1;
 
